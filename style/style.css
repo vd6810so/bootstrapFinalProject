@@ -1,0 +1,60 @@
+@font-face {
+    font-family: simplifica;
+    src: url(simplifica.ttf);
+}
+
+body {
+    background-color: #FBF7D7;
+}
+
+nav {
+    background-color: #FA616E;
+    line-height: 36px;
+}
+
+.navbar-brand {
+    font-family: simplifica;
+    font-size: 36px;
+    margin-top: 5px;
+    color:#FBF7D7;
+}
+
+h2 {
+    font-family: simplifica;
+    font-size: 36px;
+    margin-top: 5px;
+    color:#FA616E;
+    margin-left: 50px;
+}
+
+#myJumbotron {
+    background: url("../images/mountain.jpg");
+    height: 640px;
+    margin-top: 50px;
+    position: relative;
+
+    background-size: 1110px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-family: simplifica;
+    font-size: 36px;
+    color: #FBF7D7;
+
+    text-align: center;
+}
+
+#cards, #cards.row {
+    position: relative;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+div.card {
+    color: #FBF7D7;
+    background-color: #FA616E;
+}
