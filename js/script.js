@@ -1,15 +1,16 @@
 $(document).ready(function () {
 
-    $('.carousel').carousel({
-        interval: 1500,
-        pause: "hover"
-    });
+    // Popover hint
+    $(function () {
+        $('[data-toggle="popover"]').popover()
+    })
 
-    //Int scrollspy
+    // Int scrollspy
     $("body").scrollspy({
         target: "#navigation"
     });
 
+    // Scrolling navigation
     $("#navigation a").on("click", function (e) {
         if (this.hash !== "") {
             e.preventDefault();
@@ -26,9 +27,10 @@ $(document).ready(function () {
         }
     });
 
-    //fix navcar collapse
+    // Navbar collapse on link click
     $('.navbar-nav>li>a').on('click', function () {
         $('.navbar-collapse').collapse('hide');
     });
+
     //document.ready ends here
 });

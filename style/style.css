@@ -16,15 +16,15 @@ nav {
     font-family: simplifica;
     font-size: 36px;
     margin-top: 5px;
-    color:#FBF7D7;
+    color: #FBF7D7;
     margin-bottom: 0;
 }
 
 h2 {
     font-family: simplifica;
     font-size: 36px;
-    padding-top: 100px;
-    color:#FA616E;
+    padding-top: 90px;
+    color: #FA616E;
 }
 
 #myJumbotron {
@@ -45,7 +45,8 @@ h2 {
     text-align: center;
 }
 
-#cards, #cards.row {
+#cards,
+#cards.row {
     position: relative;
 
     display: flex;
@@ -57,4 +58,120 @@ h2 {
 div.card {
     color: #FBF7D7;
     background-color: #FA616E;
+}
+
+button.btn {
+    color: #FBF7D7;
+    background-color: #FA616E;
+    text-decoration: none;
+    border: none;
+    border-radius: none;
+
+    margin-top: 50px;
+}
+
+button.btn:hover {
+    color: white;
+    background-color: #FA616E;
+}
+
+button.btn:active,
+button.btn:link,
+button.btn:visited {
+    color: #FBF7D7;
+    background-color: #FA616E;
+}
+
+div.col-sm {
+    position: relative;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+    margin-top: 50px;
+}
+
+.flexbox {
+    position: relative;
+    display: flex;
+}
+
+.item {
+    flex-grow: 1;
+    height: 200px;
+    background-color: #FA616E;
+    margin-bottom: 50px;
+
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+    padding-top: 0;
+}
+
+p {
+    color: #FBF7D7;
+    padding: 10px;
+}
+
+.item+.item {
+    margin-left: 2%;
+}
+
+.flexbox2 {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.one {
+    background-image: url("../images/flex1");
+}
+
+.item2 {
+    width: 32%;
+    height: 150px;
+    padding-bottom: 32%;
+    margin-bottom: 2%;
+    position: relative;
+
+    filter: grayscale(1);
+
+    background-color: blue;
+}
+
+.item2:hover {
+    filter: none;
+}
+
+.item2.one {
+    background-image: url("../images/flex1.jpg");
+    background-size: 360px;
+}
+
+.item2.two {
+    background-image: url("../images/flex2.jpg");
+    background-size: 360px;
+}
+
+.item2.three {
+    background-image: url("../images/flex3.jpg");
+    background-size: 360px;
+}
+
+.item2.four {
+    background-image: url("../images/flex4.jpg");
+    background-size: 360px;
+}
+
+.item2.five {
+    background-image: url("../images/flex5.jpg");
+    background-size: 560px;
+}
+
+.item2.six {
+    background-image: url("../images/flex6.jpg");
+    background-size: 360px;
 }
