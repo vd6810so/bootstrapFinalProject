@@ -13,26 +13,27 @@
 </head>
 
 <body>
+    <header id="header">
+        <div id="home" style="padding-top: 5px;"></div>
+        <!-- Navigation Begin -->
+        <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="navigation" role="navigation">
+            <a class="navbar-brand text-uppercase" href="#home" style="color: #FBF7D7;">Isaiah's Demo</a>
 
-    <header>
-       <!-- Navigation Begin -->
-        <nav class="navbar navbar-expand-lg navbar-dark" id="navigation" role="navigation">
-            <a class="navbar-brand text-uppercase" href="#" style="color: #FBF7D7;">Isaiah's Demo</a>
-
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon" id="myIcon"></span>
             </button>
 
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav mr-auto">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="#">Bootstrap</a>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#bootstrap">Bootstrap</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Flexbox</a>
+                        <a class="nav-link" href="#flexbox">Flexbox</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">CSS Grid</a>
+                        <a class="nav-link" href="#cssgrid">CSS Grid</a>
                     </li>
                 </ul>
 
@@ -40,6 +41,7 @@
         </nav>
         <!-- Navigation End -->
     </header>
+
 
     <!-- Jumbotron Begin -->
     <div class="container">
@@ -49,48 +51,88 @@
     </div>
     <!-- Jumbotron End -->
 
-    <!-- Bootstrap cards Begin -->
-    <h2 class="text-uppercase">BootStrap</h2>
-    <div class="container" id="cards">
+    <!-- Bootstrap Begin -->
+    <div class="container" id="bootstrap">
+        <h2 class="text-uppercase">BootStrap</h2>
         <div class="row">
-          <div class="col-sm">
-            <div class="card" style="width: 18rem;">
-                <img src="/images/card1.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores aut quasi accusamus, obcaecati consectetur sequi inventore sint debitis veritatis quas, eligendi praesentium nemo autem quos.</p>
+            <div class="col-sm">
+                <div class="card" style="width: 18rem;">
+                    <img src="/images/card1.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores aut quasi
+                            accusamus, obcaecati consectetur sequi inventore sint debitis veritatis quas, eligendi
+                            praesentium nemo autem quos.</p>
+                    </div>
                 </div>
-              </div>
-          </div>
-          <div class="col-sm">
-            <div class="card" style="width: 18rem;">
-                <img src="/images/card2.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor voluptatibus doloribus nobis. Quaerat facilis repellendus, asperiores molestias eum distinctio eaque animi aspernatur omnis magni inventore.</p>
+            </div>
+            <div class="col-sm">
+                <div class="card" style="width: 18rem;">
+                    <img src="/images/card2.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor
+                            voluptatibus doloribus nobis. Quaerat facilis repellendus, asperiores molestias eum
+                            distinctio eaque animi aspernatur omnis magni inventore.</p>
+                    </div>
                 </div>
-              </div>
-          </div>
-          <div class="col-sm">
-            <div class="card" style="width: 18rem;">
-                <img src="/images/card3.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non, consequatur voluptatem officia recusandae in molestiae, itaque exercitationem ratione praesentium sed nihil ex qui deleniti cupiditate.</p>
+            </div>
+            <div class="col-sm">
+                <div class="card" style="width: 18rem;">
+                    <img src="/images/card3.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non, consequatur
+                            voluptatem officia recusandae in molestiae, itaque exercitationem ratione praesentium sed
+                            nihil ex qui deleniti cupiditate.</p>
+                    </div>
                 </div>
-              </div>
-          </div>
+            </div>
         </div>
-      </div>
-      <!-- Bootstrap cards End -->
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm">
+                <div class="card" style="width: 18rem;">
+                    <img src="/images/card1.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores aut quasi
+                            accusamus, obcaecati consectetur sequi inventore sint debitis veritatis quas, eligendi
+                            praesentium nemo autem quos.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm">
+                <div class="card" style="width: 18rem;">
+                    <img src="/images/card2.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor
+                            voluptatibus doloribus nobis. Quaerat facilis repellendus, asperiores molestias eum
+                            distinctio eaque animi aspernatur omnis magni inventore.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm">
+                <div class="card" style="width: 18rem;">
+                    <img src="/images/card3.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non, consequatur
+                            voluptatem officia recusandae in molestiae, itaque exercitationem ratione praesentium sed
+                            nihil ex qui deleniti cupiditate.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Bootstrap End -->
 
-    <!-- Bootstrap Scripts -->
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
-        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
-    </script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+    <!-- Scripts bootstrap, jquery, popper -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
     </script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
         integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
     </script>
+    <script src="/js/script.js"></script>
 </body>
 
 </html>
